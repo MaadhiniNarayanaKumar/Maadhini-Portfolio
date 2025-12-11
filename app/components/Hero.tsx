@@ -9,7 +9,6 @@ export default function Hero() {
         "Quantitative Finance Student",
         "AI Engineer",
         "LLM & Chatbot Developer",
-        "Automation Builder",
         "Data-Driven Problem Solver",
     ];
 
