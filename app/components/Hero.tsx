@@ -6,11 +6,13 @@ import { useEffect, useState } from "react";
 
 export default function Hero() {
     const phrases = [
+        "Quantitative Finance Student",
         "AI Engineer",
-        "Full-Stack Developer",
+        "LLM & Chatbot Developer",
         "Automation Builder",
-        "Design-Minded Engineer",
+        "Data-Driven Problem Solver",
     ];
+
 
     const [currentPhrase, setCurrentPhrase] = useState(0);
 
@@ -60,7 +62,7 @@ export default function Hero() {
                     </div>
 
                     <p className="text-lg text-gray-600/90 max-w-md leading-relaxed">
-                        I build intelligent systems, beautiful interfaces, and automations that create real impact.
+                        I craft AI systems, smart chatbots, and automated workflows—powered by quantitative thinking and real impact.
                     </p>
 
                     {/* BUTTONS */}
@@ -85,7 +87,7 @@ export default function Hero() {
                     <div className="grid grid-cols-3 gap-4 pt-6 text-center md:text-left">
                         <div>
                             <p className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-teal-400">
-                                15+
+                                5+
                             </p>
                             <p className="text-gray-500 text-sm tracking-wide">Projects</p>
                         </div>
